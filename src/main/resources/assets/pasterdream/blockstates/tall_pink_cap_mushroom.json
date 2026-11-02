@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "pasterdream:block/tall_pink_cap_mushroom"
+    },
+    "half=lower": {
+      "model": "pasterdream:block/tall_pink_cap_mushroom_bottom"
+    }
+  }
+}

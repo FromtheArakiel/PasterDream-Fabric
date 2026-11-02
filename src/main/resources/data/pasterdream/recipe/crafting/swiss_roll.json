@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pasterdream:bread_slice"
+    },
+    {
+      "item": "pasterdream:bread_slice"
+    },
+    {
+      "item": "pasterdream:milk_glass_jar"
+    },
+    {
+      "item": "pasterdream:yeast"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pasterdream:swiss_roll"
+  }
+}

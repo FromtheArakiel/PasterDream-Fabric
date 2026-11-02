@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pasterdream:cream_buncake"
+    },
+    {
+      "item": "pasterdream:dyedream_fruit"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pasterdream:dyedream_fruit_buncake"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "pasterdream:dream_cauldron",
+  "inputs": [
+    {
+      "id": "pasterdream:guiding_drug",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:lisianthus",
+      "count": 1
+    },
+    {
+      "id": "minecraft:spider_eye",
+      "count": 1
+    },
+    {
+      "id": "minecraft:poisonous_potato",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "pasterdream:poison_spell",
+    "count": 1
+  },
+  "processing_time": 20,
+  "fluid_cost": 100
+}

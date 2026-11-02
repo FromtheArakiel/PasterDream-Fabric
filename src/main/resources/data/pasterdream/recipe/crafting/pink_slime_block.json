@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "pasterdream:pink_slime_ball"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "pasterdream:pink_slime_block"
+  }
+}

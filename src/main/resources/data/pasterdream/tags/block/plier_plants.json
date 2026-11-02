@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "pasterdream:stalk_grass",
+    "pasterdream:tall_stalk_grass",
+    "pasterdream:pink_cap_mushroom",
+    "pasterdream:tall_pink_cap_mushroom",
+    "pasterdream:shadow_mycelium",
+    "pasterdream:tall_shadow_mycelium",
+    "pasterdream:shadow_stem_fern",
+    "pasterdream:shadow_fern",
+    "pasterdream:tall_shadow_fern",
+    "pasterdream:fuzzy_moss",
+    "pasterdream:windcut_grass",
+    "pasterdream:windfeather_grass",
+    "pasterdream:dyedream_lily_pad",
+    "pasterdream:dyedream_moss",
+    "pasterdream:dyedream_seagrass"
+  ]
+}

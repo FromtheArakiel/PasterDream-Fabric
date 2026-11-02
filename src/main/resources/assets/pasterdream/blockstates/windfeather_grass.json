@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "pasterdream:block/windfeather_grass"
+    },
+    "half=lower": {
+      "model": "pasterdream:block/windfeather_grass_bottom"
+    }
+  }
+}

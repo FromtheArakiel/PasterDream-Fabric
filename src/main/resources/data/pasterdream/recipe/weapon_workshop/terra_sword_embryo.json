@@ -1,0 +1,30 @@
+{
+  "type": "pasterdream:weapon_workshop",
+  "inputs": [
+    {
+      "id": "pasterdream:truest_moltengold_sword",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:true_grass_sword",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:true_tide_sword",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:true_desert_sword",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:broken_hero_sword",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "pasterdream:terra_sword_embryo",
+    "count": 1
+  },
+  "processing_time": 20
+}

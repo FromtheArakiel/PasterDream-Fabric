@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "pasterdream:block/shadow_stem_fern"
+    },
+    "half=lower": {
+      "model": "pasterdream:block/shadow_stem_fern_bottom"
+    }
+  }
+}

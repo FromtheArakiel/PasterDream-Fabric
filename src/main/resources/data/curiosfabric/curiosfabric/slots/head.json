@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "size": 1,
+  "operation": "SET",
+  "icon": "curiosfabric:slot/empty_head_slot",
+  "validators": [
+    "curiosfabric:tag"
+  ]
+}

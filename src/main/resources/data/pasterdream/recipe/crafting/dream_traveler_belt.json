@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "pasterdream:dyedream_dye"
+    },
+    "b": {
+      "item": "pasterdream:dyedream_dust"
+    },
+    "c": {
+      "item": "pasterdream:traveler_belt"
+    },
+    "d": {
+      "item": "pasterdream:lost_dream_forge_lotus"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "pasterdream:dream_traveler_belt"
+  }
+}

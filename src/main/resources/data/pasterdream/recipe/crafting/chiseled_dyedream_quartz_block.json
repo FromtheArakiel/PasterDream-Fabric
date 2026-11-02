@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "pasterdream:dyedream_quartz_block_slab"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "pasterdream:chiseled_dyedream_quartz_block"
+  }
+}

@@ -3,22 +3,43 @@ plugins {
 	id 'maven-publish'
 }
 
+base {
+	archivesName = "pasterdream-fabric-${minecraft_version}"
+}
+
 repositories {
-	// Add repositories to retrieve artifacts from in here.
-	// You should only use this when depending on other mods because
-	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
-	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
-	// for more information about repositories.
+	flatDir {
+		dirs 'libs'
+	}
+}
+
+def localMod = { String fileName ->
+	files("libs/${fileName}")
 }
 
 dependencies {
-	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings loom.officialMojangMappings()
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+	modImplementation localMod("gemini-${gemini_version}.jar")
+	runtimeOnly files(
+		"libs/gemini-runtime/META-INF/jars/core-3.8.0.jar",
+		"libs/gemini-runtime/META-INF/jars/toml-3.8.0.jar"
+	)
+	modImplementation localMod(
+		"curiosfabric-fabric-${minecraft_version}-${curiosfabric_version}.jar"
+	)
+
+	modImplementation include(
+		"local:geckolib-fabric-${minecraft_version}:${geckolib_version}"
+	)
+
+	modImplementation include(
+		"local:player-animation-lib-fabric:${playeranimator_version}"
+	)
 }
 
 processResources {
@@ -32,12 +53,17 @@ processResources {
 
 tasks.withType(JavaCompile).configureEach {
 	it.options.release = 21
+	it.options.encoding = "UTF-8"
+        it.options.compilerArgs += ["-Xlint:deprecation", "-Xlint:unchecked"]
+}
+
+tasks.matching { it.name == "runServer" }.configureEach {
+	if (it instanceof JavaExec) {
+		it.executable = "C:\\Users\\Administrator\\.gradle\\jdks\\eclipse_adoptium-21-amd64-windows.2\\bin\\java.exe"
+	}
 }
 
 java {
-	// Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
-	// if it is present.
-	// If you remove this line, sources will not be generated.
 	withSourcesJar()
 
 	sourceCompatibility = JavaVersion.VERSION_21
@@ -53,19 +79,10 @@ jar {
 	}
 }
 
-// configure the maven publication
 publishing {
 	publications {
 		create("mavenJava", MavenPublication) {
 			from components.java
 		}
-	}
-
-	// See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
-	repositories {
-		// Add repositories to publish to here.
-		// Notice: This block does NOT have the same function as the block in the top level.
-		// The repositories here will be used for publishing your artifact, not for
-		// retrieving dependencies.
 	}
 }

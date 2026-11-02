@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "pasterdream:cooked_eggs"
+    },
+    {
+      "tag": "pasterdream:cooked_eggs"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "pasterdream:salt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pasterdream:bacon_egg"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pasterdream:dyedream_vine"
+    },
+    {
+      "item": "pasterdream:dyedream_vine"
+    },
+    {
+      "item": "pasterdream:dyedream_vine"
+    },
+    {
+      "item": "pasterdream:dyedream_vine"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pasterdream:dyedream_fruit"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "pasterdream:mossy_cyan_stone_bricks"
+  },
+  "result": {
+    "id": "pasterdream:mossy_cyan_stone_brick_slab"
+  }
+}

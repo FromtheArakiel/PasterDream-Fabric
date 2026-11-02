@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pasterdream:moltengold_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "pasterdream:moltengold_ingot"
+  }
+}

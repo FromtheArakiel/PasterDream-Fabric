@@ -1,0 +1,27 @@
+{
+  "type": "pasterdream:dream_cauldron",
+  "inputs": [
+    {
+      "id": "pasterdream:guiding_drug",
+      "count": 1
+    },
+    {
+      "id": "minecraft:cornflower",
+      "count": 1
+    },
+    {
+      "id": "minecraft:redstone",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:dark_cloud",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "pasterdream:lightning_spell",
+    "count": 1
+  },
+  "processing_time": 20,
+  "fluid_cost": 100
+}

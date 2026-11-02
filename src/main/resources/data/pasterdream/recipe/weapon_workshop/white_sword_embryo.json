@@ -1,0 +1,30 @@
+{
+  "type": "pasterdream:weapon_workshop",
+  "inputs": [
+    {
+      "id": "pasterdream:titanium_sword",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:shadow_light_0",
+      "count": 9
+    },
+    {
+      "id": "pasterdream:white_crystal",
+      "count": 1
+    },
+    {
+      "id": "minecraft:nether_star",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:meltdream_crystal",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "pasterdream:white_sword_embryo",
+    "count": 1
+  },
+  "processing_time": 20
+}

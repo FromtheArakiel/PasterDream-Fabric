@@ -1,0 +1,12 @@
+{
+  "feature": "pasterdream:huge_fungus_shadow_nylium",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 8
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "pasterdream:block/dreamforge_lotus"
+    },
+    "half=lower": {
+      "model": "pasterdream:block/dreamforge_lotus_bottom"
+    }
+  }
+}

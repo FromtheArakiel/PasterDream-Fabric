@@ -1,0 +1,30 @@
+{
+  "type": "pasterdream:weapon_workshop",
+  "inputs": [
+    {
+      "id": "minecraft:diamond",
+      "count": 8
+    },
+    {
+      "id": "minecraft:blue_ice",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:black_metal_ingot",
+      "count": 2
+    },
+    {
+      "id": "pasterdream:black_stick",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:pure_horror",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "pasterdream:iceshadow_hammer_embryo",
+    "count": 1
+  },
+  "processing_time": 20
+}

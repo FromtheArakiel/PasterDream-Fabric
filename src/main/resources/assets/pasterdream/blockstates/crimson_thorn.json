@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "pasterdream:block/crimson_thorn"
+    },
+    "half=lower": {
+      "model": "pasterdream:block/crimson_thorn_bottom"
+    }
+  }
+}

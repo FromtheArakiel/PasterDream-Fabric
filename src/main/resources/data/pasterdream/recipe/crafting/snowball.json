@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pasterdream:edelweiss"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:snowball"
+  }
+}

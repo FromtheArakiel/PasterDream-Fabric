@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pasterdream:pale_snow_lotus_crop"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pasterdream:white_corolla"
+  }
+}

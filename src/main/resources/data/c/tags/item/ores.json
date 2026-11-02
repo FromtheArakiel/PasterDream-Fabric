@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#pasterdream:ores",
+    "#c:ores/titanium",
+    "#c:ores/moltengold",
+    "#c:ores/dyedream"
+  ]
+}

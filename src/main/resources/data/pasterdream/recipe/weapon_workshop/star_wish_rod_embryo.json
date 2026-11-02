@@ -1,0 +1,30 @@
+{
+  "type": "pasterdream:weapon_workshop",
+  "inputs": [
+    {
+      "id": "minecraft:fishing_rod",
+      "count": 1
+    },
+    {
+      "id": "minecraft:powder_snow_bucket",
+      "count": 1
+    },
+    {
+      "id": "minecraft:diamond",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:meltdream_crystal",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:snow_vow_head",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "pasterdream:star_wish_rod_embryo",
+    "count": 1
+  },
+  "processing_time": 20
+}

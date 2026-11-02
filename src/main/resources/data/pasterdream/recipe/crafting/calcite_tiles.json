@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "pasterdream:polished_calcite"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "pasterdream:calcite_tiles"
+  }
+}

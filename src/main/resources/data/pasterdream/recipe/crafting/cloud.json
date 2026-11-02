@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pasterdream:ringing_cloud_flower_crop"
+    }
+  ],
+  "result": {
+    "count": 5,
+    "id": "pasterdream:cloud"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pasterdream:wafer_biscuit"
+    },
+    {
+      "item": "pasterdream:wafer_biscuit"
+    },
+    {
+      "item": "pasterdream:milk_glass_jar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pasterdream:stuffed_wafer_cookies"
+  }
+}

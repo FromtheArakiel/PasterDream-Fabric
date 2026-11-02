@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pasterdream:mortar"
+    },
+    {
+      "item": "pasterdream:glass_jar"
+    },
+    {
+      "item": "pasterdream:glass_jar"
+    },
+    {
+      "item": "pasterdream:windcut_grass"
+    },
+    {
+      "item": "pasterdream:windfeather_grass"
+    },
+    {
+      "item": "pasterdream:fuzzy_moss"
+    },
+    {
+      "item": "pasterdream:wind_island_reed"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "pasterdream:wind_plant_extract"
+  }
+}

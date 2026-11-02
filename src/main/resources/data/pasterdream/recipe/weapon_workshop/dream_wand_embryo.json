@@ -1,0 +1,30 @@
+{
+  "type": "pasterdream:weapon_workshop",
+  "inputs": [
+    {
+      "id": "pasterdream:meltdream_crystal",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:titanium_ingot",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:black_stick",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:dyedream_dust",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:dyedream_quartz",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "pasterdream:dream_wand_embryo",
+    "count": 1
+  },
+  "processing_time": 20
+}

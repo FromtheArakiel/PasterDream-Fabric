@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "pasterdream:block/wind_island_reed"
+    },
+    "half=lower": {
+      "model": "pasterdream:block/wind_island_reed_bottom"
+    }
+  }
+}

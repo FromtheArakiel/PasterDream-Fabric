@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "pasterdream:shadow_stones"
+  },
+  "result": {
+    "id": "pasterdream:cracked_shadow_stone_brick"
+  }
+}

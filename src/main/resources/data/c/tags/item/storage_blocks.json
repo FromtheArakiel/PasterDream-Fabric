@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#c:storage_blocks/titanium",
+    "#c:storage_blocks/raw_titanium",
+    "#c:storage_blocks/moltengold",
+    "#c:storage_blocks/dyedream",
+    "#c:storage_blocks/wind_iron",
+    "#c:storage_blocks/black_metal"
+  ]
+}

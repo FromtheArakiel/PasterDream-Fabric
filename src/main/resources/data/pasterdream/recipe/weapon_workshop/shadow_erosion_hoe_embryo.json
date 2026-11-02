@@ -1,0 +1,30 @@
+{
+  "type": "pasterdream:weapon_workshop",
+  "inputs": [
+    {
+      "id": "minecraft:iron_hoe",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:black_metal_ingot",
+      "count": 2
+    },
+    {
+      "id": "pasterdream:nightmare_fuel",
+      "count": 1
+    },
+    {
+      "id": "minecraft:crying_obsidian",
+      "count": 3
+    },
+    {
+      "id": "pasterdream:black_stick",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "pasterdream:shadow_erosion_hoe_embryo",
+    "count": 1
+  },
+  "processing_time": 20
+}

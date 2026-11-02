@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pasterdream:mortar"
+    },
+    {
+      "item": "pasterdream:rye_seed"
+    },
+    {
+      "item": "pasterdream:rye_seed"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pasterdream:flour"
+  }
+}

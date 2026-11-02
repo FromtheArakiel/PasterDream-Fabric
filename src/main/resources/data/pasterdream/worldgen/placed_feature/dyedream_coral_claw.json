@@ -1,0 +1,16 @@
+{
+  "feature": "pasterdream:dyedream_coral_claw",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 48
+    }
+  ]
+}

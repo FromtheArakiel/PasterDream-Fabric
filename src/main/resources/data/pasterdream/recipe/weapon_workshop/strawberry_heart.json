@@ -1,0 +1,30 @@
+{
+  "type": "pasterdream:weapon_workshop",
+  "inputs": [
+    {
+      "id": "pasterdream:silver_bell",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:dyedream_ingot",
+      "count": 1
+    },
+    {
+      "id": "minecraft:string",
+      "count": 5
+    },
+    {
+      "id": "pasterdream:dyedream_planks",
+      "count": 4
+    },
+    {
+      "id": "pasterdream:white_crystal",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "pasterdream:strawberry_heart",
+    "count": 1
+  },
+  "processing_time": 20
+}

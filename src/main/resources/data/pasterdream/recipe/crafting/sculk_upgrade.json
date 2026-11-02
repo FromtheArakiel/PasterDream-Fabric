@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "dbd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:echo_shard"
+    },
+    "c": {
+      "tag": "pasterdream:sculk_heart"
+    },
+    "d": {
+      "item": "minecraft:sculk_vein"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "pasterdream:sculk_upgrade"
+  }
+}

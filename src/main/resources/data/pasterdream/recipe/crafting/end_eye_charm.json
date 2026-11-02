@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pasterdream:embryo_charm"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "minecraft:chorus_flower"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pasterdream:end_eye_charm"
+  }
+}

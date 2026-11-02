@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pasterdream:cake_base"
+    },
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "pasterdream:milk_glass_jar"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pasterdream:pumpkin_buncake"
+  }
+}

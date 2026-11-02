@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pasterdream:luminous_violet_crop"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pasterdream:lightball"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "pasterdream:dream_cauldron",
+  "inputs": [
+    {
+      "id": "pasterdream:guiding_drug",
+      "count": 1
+    },
+    {
+      "id": "minecraft:golden_apple",
+      "count": 1
+    },
+    {
+      "id": "minecraft:glistering_melon_slice",
+      "count": 1
+    },
+    {
+      "id": "minecraft:sunflower",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "pasterdream:healing_spell",
+    "count": 1
+  },
+  "processing_time": 20,
+  "fluid_cost": 100
+}

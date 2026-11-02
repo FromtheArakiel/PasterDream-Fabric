@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "pasterdream:glass_jar"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pasterdream:milk_glass_jar"
+  }
+}

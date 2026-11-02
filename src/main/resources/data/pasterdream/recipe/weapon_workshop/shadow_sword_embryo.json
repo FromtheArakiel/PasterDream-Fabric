@@ -1,0 +1,30 @@
+{
+  "type": "pasterdream:weapon_workshop",
+  "inputs": [
+    {
+      "id": "pasterdream:shadow_erosion_sword",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:nightmare_fuel",
+      "count": 17
+    },
+    {
+      "id": "pasterdream:shadow_hilt",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:black_metal_ingot",
+      "count": 1
+    },
+    {
+      "id": "pasterdream:pergamyn",
+      "count": 3
+    }
+  ],
+  "result": {
+    "id": "pasterdream:shadow_sword_embryo",
+    "count": 1
+  },
+  "processing_time": 20
+}

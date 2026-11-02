@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#c:ingots/titanium",
+    "#c:ingots/moltengold",
+    "#c:ingots/dyedream",
+    "#c:ingots/wind_iron",
+    "#c:ingots/black_metal"
+  ]
+}

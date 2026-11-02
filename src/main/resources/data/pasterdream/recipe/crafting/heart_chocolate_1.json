@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "b": {
+      "item": "minecraft:white_dye"
+    },
+    "c": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "count": 2,
+    "id": "pasterdream:heart_chocolate_1"
+  }
+}

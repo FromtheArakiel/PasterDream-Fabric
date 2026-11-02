@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pasterdream:cake_base"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "pasterdream:milk_glass_jar"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pasterdream:glow_berry_buncake"
+  }
+}

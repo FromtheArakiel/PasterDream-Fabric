@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pasterdream:wind_island_reed"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "pasterdream:reed_rod"
+  }
+}

@@ -3,29 +3,58 @@
 	"id": "pasterdream",
 	"version": "${version}",
 	"name": "PasterDream",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "PasterDream for Minecraft 1.21.1 on Fabric.",
 	"authors": [
-		"Me!"
+		"异星之尘"
+	],
+	"contributors": [
+		"阿墨",
+		"夜岚风清",
+		"煮饭婆",
+		"初雪冰",
+		"Vittorio_Veneto",
+		"Fallen_sky2",
+		"幼幼紫"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://www.mcmod.cn/class/8530.html"
 	},
-	"license": "CC0-1.0",
+	"license": "All Rights Reserved",
 	"icon": "assets/pasterdream/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"dev.arakiel.pasterdream.PasterDream"
+		],
+		"client": [
+			"dev.arakiel.pasterdream.client.PasterDreamClient"
+		],
+		"gemini:static-components": [
+			"dev.arakiel.pasterdream.component.PasterDreamComponentRegistration"
+		],
+		"gemini:components-entity": [
+			"dev.arakiel.pasterdream.component.PasterDreamComponentRegistration"
 		]
 	},
 	"mixins": [
 		"pasterdream.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.20.1",
+		"fabricloader": ">=0.19.5",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": ">=0.116.17",
+		"gemini": ">=1.0.3",
+		"curiosfabric": ">=9.5.1",
+		"geckolib": ">=4.9.3",
+		"playeranimator": ">=2.0.4"
+	},
+	"custom": {
+		"gemini:components": [
+			"pasterdream:san",
+			"pasterdream:meltdream_energy",
+			"pasterdream:cooldowns",
+			"pasterdream:world_state"
+		]
 	}
 }

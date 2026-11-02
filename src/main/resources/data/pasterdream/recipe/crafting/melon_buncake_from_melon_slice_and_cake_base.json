@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pasterdream:cake_base"
+    },
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "pasterdream:milk_glass_jar"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pasterdream:melon_buncake"
+  }
+}
